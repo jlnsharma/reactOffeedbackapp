@@ -1,0 +1,58 @@
+/* Write your CSS code here. */
+.main {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb, #ffebeb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+}
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.emojiName {
+  margin-left: 0px;
+  font-size: 12px;
+  text-align: center;
+}
+.image {
+  width: 50px;
+}
+.emojiCont {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+}
+.eachEmoji {
+  margin-right: 50px;
+}
+.feedCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.feedDesc {
+  text-align: center;
+  font-weight: 12px;
+  font-weight: 300;
+}
+.feedNote {
+  font-weight: bold;
+}
